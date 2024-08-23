@@ -5,10 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/fb06a790c6.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .manrope-font {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
 </head>
 
-<body>
-
+<body class="manrope-font">
+    <header>
+        <nav>
+            <div class="navbar md:w-5/6 mx-auto mt-6">
+                <div class="navbar-start">
+                    <i
+                        class="fa-solid fa-arrow-right flex items-center justify-center w-8 h-8 rounded-full bg-[#ABEF5F] -rotate-45"></i>
+                    <h1 class="text-[32px] font-extrabold ml-3">Rinterio</h1>
+                </div>
+                <div class="navbar hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-base text-[#212121]">Home</a></li>
+                        <li><a class="text-base text-[#737373]">Services</a></li>
+                        <li><a class="text-base text-[#737373]">Portfolio</a></li>
+                        <li><a class="text-base text-[#737373]">Blogs</a></li>
+                        <li><a class="text-base text-[#737373]">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end hidden lg:flex">
+                    <i
+                        class="fa-solid fa-magnifying-glass flex items-center justify-center w-8 h-8 rounded-full border border-gray-300 bg-[white] mr-3"></i>
+                    <i
+                        class="fa-solid fa-cart-shopping flex items-center justify-center w-8 h-8 rounded-full border border-gray-300 bg-[white] mr-3"></i>
+                    <a class="btn rounded-3xl bg-[#ABEF5F] text-[20px] font-extrabold">Book Consult <i
+                            class="fa-solid fa-arrow-right flex items-center justify-center w-8 h-8 rounded-full bg-[black] -rotate-45 text-[white]"></i></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 
 </html>
