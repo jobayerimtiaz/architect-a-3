@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rinterio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -32,14 +32,14 @@
 <body class="manrope-font">
     <header class="bg-gradient-to-b from-[rgb(245,245,245)] to-white w-full">
         <nav>
-            <div class="navbar md:w-5/6 mx-auto pt-8">
-                <div class="flex justify-start">
+            <div class="navbar md:w-[90%] mx-auto pt-8 md:flex md:justify-between md:items-center">
+                <div class="flex justify-start items-center">
                     <i
                         class="fa-solid fa-arrow-right flex items-center justify-center w-8 h-8 rounded-full bg-[#ABEF5F] -rotate-45"></i>
-                    <h1 class="text-[32px] font-extrabold text-black ml-3">Rinterio</h1>
+                    <h1 class="text-[2rem] font-extrabold text-black ml-3">Rinterio</h1>
                 </div>
                 <div class="navbar hidden lg:flex justify-center items-center">
-                    <ul class="menu menu-horizontal px-1">
+                    <ul class="menu menu-horizontal lg:flex justify-center items-center">
                         <li><a class="text-base text-[#212121]">Home</a></li>
                         <li><a class="text-base text-[#737373]">Services</a></li>
                         <li><a class="text-base text-[#737373]">Portfolio</a></li>
@@ -47,16 +47,21 @@
                         <li><a class="text-base text-[#737373]">Contact Us</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end hidden lg:flex">
-                    <i
-                        class="fa-solid fa-magnifying-glass flex items-center justify-center w-10 h-10 rounded-full border bg-[white] mr-1"></i>
-                    <i
-                        class="fa-solid fa-cart-shopping flex items-center justify-center w-10 h-10 rounded-full border bg-[white] mr-5 ml-5"></i>
-                    <a class="btn rounded-3xl bg-[#ABEF5F] text-[20px] font-extrabold">Book Consult <i
-                            class="fa-solid fa-arrow-right flex items-center justify-center w-8 h-8 rounded-full bg-[black] -rotate-45 text-[white]"></i></a>
+                <div class="navbar-end hidden md:flex gap-2">
+                    <div class="flex gap-2">
+                        <i
+                            class="fa-solid fa-magnifying-glass flex items-center justify-center w-8 h-8 rounded-full border bg-[white]"></i>
+                        <i
+                            class="fa-solid fa-cart-shopping flex items-center justify-center w-8 h-8 rounded-full border bg-[white]  "></i>
+                    </div>
+                    <div>
+                        <a class="btn rounded-3xl bg-[#ABEF5F] text-sm font-extrabold">Book Consult <i
+                                class="fa-solid fa-arrow-right flex items-center justify-center w-8 h-8 rounded-full bg-[black] -rotate-45 text-[white]"></i></a>
+                    </div>
+
                 </div>
                 <i
-                    class="fa-solid fa-bars sm:flex md:hidden ml-auto flex items-center justify-center w-10 h-10 rounded-full border bg-[white]"></i>
+                    class="fa-solid fa-bars sm:flex md:hidden ml-auto flex items-center justify-center w-8 h-8 rounded-full border bg-[white]"></i>
             </div>
         </nav>
         <div class="flex justify-center">
@@ -64,21 +69,14 @@
         </div>
         <div class="">
             <h1
-                class="font-extrabold text-4xl md:text-6xl text-center text-[#212121] mt-5 w-[85%] md:w-[70%] mx-auto md:leading-[80px]">
+                class="font-extrabold text-3xl md:text-6xl text-center text-[#212121] mt-5 w-[85%] md:w-[70%] mx-auto md:leading-[80px]">
                 A barn house
                 of this design has
                 a striking appearance
             </h1>
-            <p class="text-center w-[90%] md:w-[65%] mx-auto mt-6 text-[#494949] text-[16px] font-medium">The barn house
-                captivates
-                with its
-                blend
-                of
-                rustic charm and
-                modern
-                sophistication,
-                featuring weathered wood, sleek metal accents, and large windows that flood the space with natural
-                light.</p>
+            <p class="text-center w-[90%] md:w-[65%] mx-auto mt-6 text-[#494949] text-[16px] font-medium">We transform
+                ideas into iconic spaces that inspire and elevate. Explore our portfolio and discover how we can help
+                you bring your architectural dreams to life.</p>
             <a
                 class="btn w-[210px] rounded-3xl bg-[#ABEF5F80] text-[20px] font-extrabold flex justify-center items-center mx-auto mt-[30px] mb-[40px] md:mb-[90px]">View
                 Details <i
@@ -95,43 +93,49 @@
             </div>
 
             <div class="md:flex w-[90%] md:w-[80%] mx-auto gap-[2rem] mt-[10px] md:pb-[100px] pb-[20px]">
-                <div class="flex-1">
-                    <div class="flex justify-center items-center md:justify-start">
-                        <button class="btn bg-white rounded-3xl border-none text-[1rem] text-[#494949]"><i
-                                class="fa-solid fa-arrow-right"></i> About
-                            Us</button>
+                <div class="md:w-[50%] flex flex-col gap-[25px]">
+
+                    <div class="border border-black h-[50%]">
+                        <div class="flex justify-center items-center md:justify-start">
+                            <button class="btn bg-white rounded-3xl border-none text-[1rem] text-[#494949]"><i
+                                    class="fa-solid fa-arrow-right"></i> About
+                                Us</button>
+                        </div>
+                        <h2 class="text-[#212121] text-2xl md:text-4xl font-black text-center md:text-start mt-3 mb-3">
+                            We design
+                            thoughtful,
+                            liveable spaces
+                        </h2>
+                        <p class="text-[#494949] text-[1rem] text-center md:text-start mb-0"> We believe that great
+                            design is about more than just aesthetics—it's about creating spaces that enhance the way
+                            you
+                            live.</p>
+                    </div>
+                    <div class="border border-black h-[50%]">
+                        <div class="flex w-full h-[50%] bg-white rounded-xl justify-center items-center p-[10px] gap-[25px]
+                        mb-[25px]">
+                            <img src="assets/commercial.png" alt="" class="w-[65px] h-[65px]">
+                            <div class="w-[70%]">
+                                <h4 class="text-[#494949] font-extrabold text-[20px]">Commercial</h4>
+                                <p class="text-[#737373] font-medium text-[16px]">We ensure that your workspace
+                                    meets the needs of your team, clients and
+                                    visitors.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="flex w-full h-[50%] bg-white rounded-xl justify-center items-center p-[10px] gap-[25px]">
+                            <img src="assets/residential.png" alt="" class="w-[65px] h-[65px]">
+                            <div class="w-[70%]">
+                                <h4 class="text-[#494949] font-extrabold text-[20px]">Residential</h4>
+                                <p class="text-[#737373] font-medium text-[16px]">We understand the importance of
+                                    designing
+                                    spaces that truly feel like home.</p>
+                            </div>
+                        </div>
                     </div>
 
-                    <h2
-                        class="text-[#212121] text-[1.5rem] md:text-[2.5rem] font-black mb-[25px] text-center md:text-start">
-                        We design
-                        thoughtful,
-                        liveable spaces
-                    </h2>
-                    <p class="text-[#494949] text-[1rem] mb-[25px] text-center md:text-start">The barn house captivates
-                        with its blend of rustic
-                        charm and
-                        modern sophistication, featuring weathered wood, sleek metal accents.</p>
-                    <div
-                        class="flex w-full h-[140px] bg-white rounded-xl justify-center items-center p-[10px] gap-[25px] mb-[25px]">
-                        <img src="assets/commercial.png" alt="" class="w-[65px] h-[65px]">
-                        <div class="w-[70%]">
-                            <h4 class="text-[#494949] font-extrabold text-[20px]">Commercial</h4>
-                            <p class="text-[#737373] font-medium text-[16px]">The barn house captivates with its blend
-                                of rustic charm and modern</p>
-                        </div>
-                    </div>
-                    <div
-                        class="flex w-full h-[140px] bg-white rounded-xl justify-center items-center p-[10px] gap-[25px]">
-                        <img src="assets/residential.png" alt="" class="w-[65px] h-[65px]">
-                        <div class="w-[70%]">
-                            <h4 class="text-[#494949] font-extrabold text-[20px]">Residential</h4>
-                            <p class="text-[#737373] font-medium text-[16px]">The barn house captivates with its blend
-                                of rustic charm and modern</p>
-                        </div>
-                    </div>
                 </div>
-                <div class="flex-1 mt-[25px] md:mt-[0]">
+                <div class="md:w-[50%] mt-[25px] md:mt-[0]">
                     <img src="assets/Rectangle.png" alt="" class="h-[225px] w-full md:h-full object-cover rounded-2xl">
                 </div>
             </div>
@@ -148,44 +152,33 @@
                     <h2 class="text-[#212121] text-[1.5rem] md:text-[2.5rem] font-bold text-center mt-[20px]">Our Works
                         Process</h2>
                     <p class="text-[#737373] font-medium text-[16px] text-center mt-[1rem] w-[90%] mx-auto md:w-[50%]">
-                        The barn
-                        house
-                        captivates with
-                        its blend
-                        of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                        Journey with us turns your vision into a reality. We begin by listening to your ideas and
+                        understanding your goals.</p>
                 </div>
-                <div class="mt-[2rem] w-[90%] md:w-[80%] md:flex mx-auto gap-[1.5rem]">
-                    <div class="md:w-[17rem] h-[13.75rem] bg-[#E7C1D3] rounded-2xl p-[1.5rem] mb-[20px]">
+                <div class="mt-[2rem] w-[90%] md:w-[80%] md:flex mx-auto gap-[2%]">
+                    <div class="md:w-[25%] h-[full] bg-[#E7C1D3] rounded-2xl p-[1.5rem] mb-[20px]">
                         <img src="assets/concept.png" alt="">
                         <h4 class="text-[#1C1C1C] text-[1.25rem] font-extrabold mt-[12px] mb[12px]">Concept</h4>
-                        <p class="text-[#494949] text-[1rem] font-medium">The barn house captivates with its blend of
-                            rustic
-                            charm and
-                            modern.</p>
+                        <p class="text-[#494949] text-[1rem] font-medium">We believe that the concept phase is the
+                            foundation of successful design.</p>
                     </div>
-                    <div class="md:w-[17rem] h-[13.75rem] bg-[#EFDA6E] rounded-2xl p-[1.5rem] mb-[20px]">
+                    <div class="md:w-[25%] h-[full] bg-[#EFDA6E] rounded-2xl p-[1.5rem] mb-[20px]">
                         <img src="assets/flow-chart.png" alt="">
                         <h4 class="text-[#1C1C1C] text-[1.25rem] font-extrabold mt-[12px] mb[12px]">Design Process</h4>
-                        <p class="text-[#494949] text-[1rem] font-medium">The barn house captivates with its blend of
-                            rustic
-                            charm and
-                            modern.</p>
+                        <p class="text-[#494949] text-[1rem] font-medium">We approach every project with a meticulous
+                            eye for commitment to quality.</p>
                     </div>
-                    <div class="md:w-[17rem] h-[13.75rem] bg-[#A4DAC3] rounded-2xl p-[1.5rem] mb-[20px]">
+                    <div class="md:w-[25%] h-[full] bg-[#A4DAC3] rounded-2xl p-[1.5rem] mb-[20px]">
                         <img src="assets/vision.png" alt="">
                         <h4 class="text-[#1C1C1C] text-[1.25rem] font-extrabold mt-[12px] mb[12px]">Supervision</h4>
-                        <p class="text-[#494949] text-[1rem] font-medium">The barn house captivates with its blend of
-                            rustic
-                            charm and
-                            modern.</p>
+                        <p class="text-[#494949] text-[1rem] font-medium">We ensure that the integrity of the design is
+                            preserved and executed to perfection.</p>
                     </div>
-                    <div class="md:w-[17rem] h-[13.75rem] bg-[#77AAEA] rounded-2xl p-[1.5rem] mb-[20px]">
+                    <div class="md:w-[25%] h-[full] bg-[#77AAEA] rounded-2xl p-[1.5rem] mb-[20px]">
                         <img src="assets/budget-planning.png" alt="">
                         <h4 class="text-[#1C1C1C] text-[1.25rem] font-extrabold mt-[12px] mb[12px]">Budget Planning</h4>
-                        <p class="text-[#494949] text-[1rem] font-medium">The barn house captivates with its blend of
-                            rustic
-                            charm and
-                            modern.</p>
+                        <p class="text-[#494949] text-[1rem] font-medium">Our approach to budget planning involves a
+                            thorough analysis.</p>
                     </div>
                 </div>
             </div>
@@ -201,12 +194,9 @@
             <div>
                 <h2 class="text-[#212121] text-[1.5rem] md:text-[2.5rem] font-bold text-center mt-[20px]">Our Latest
                     Portfolio</h2>
-                <p class="text-[#737373] font-medium text-[16px] text-center mt-[1rem] w-[90%] md:w-[50%] mx-auto">The
-                    barn
-                    house
-                    captivates with
-                    its blend
-                    of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <p class="text-[#737373] font-medium text-[16px] text-center mt-[1rem] w-[90%] md:w-[50%] mx-auto">
+                    Explore our latest portfolio to see the innovative designs and projects that showcase our expertise
+                    and creativity.</p>
             </div>
             <div class="md:w-[80%] w-[90%] mt-[2rem] md:flex gap-[1.5rem] mx-auto">
                 <div
